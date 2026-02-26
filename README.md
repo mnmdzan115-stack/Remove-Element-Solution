@@ -1,0 +1,2 @@
+First i make it iterate through the array and copy the elements that are not equal to the target to the first part of the array. "j" makes sure the next valid elements should be placed there.
+The function returns "j", which represents how many valid elements are left. According to the leetcode only the first "J" elements are considered when checking the result, so that why in the array is literally still "[2][2][2][3]", it wasnt technically removed.
